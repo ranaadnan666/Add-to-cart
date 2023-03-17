@@ -1,0 +1,72 @@
+.sidebar {
+    height: 100%;
+    width: 220px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(245, 245, 245, 0.897);
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    display: block;
+    line-height: 65px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+  }
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    /* background-color: #078cfa; */
+    padding-left: 40px;
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .map12{
+ margin-left: 340px;
+ 
+ /* margin-right: 200px; */
+  /* align-items: center;
+  justify-content: center; */
+ /* position: absolute; */
+ padding: 20px;
+  }
+  .Header{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: 70px;
+    background:  #078cfa;
+  }
+
+  .appbar{
+    margin-left: 230px;
+    width: 800px;
+    display: flex;
+    border: 1px solid rgb(110, 90, 90);
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    /* background-color: #078cfa; */
+  }
+  .search{
+    margin-left: 250px;
+    /* justify-content: space-between; */
+    /* padding: 5px; */
+  }
+  .Main12{
+    display: flex;
+
+  }
+  .search123{
+    border-radius: 20px;
+    margin-left: 10px;
+  }

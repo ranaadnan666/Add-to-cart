@@ -1,0 +1,94 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top:70px ;
+    height: 100vh;
+    margin-left: 230px;
+}
+.banerimage{
+    height: 50%;
+    width: 50%;
+  align-self: center;
+}
+.logotext{
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    
+    /* justify-content: center; */
+}
+
+
+.logotext h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.logotext button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .logotext h1 {font-size: 1.2rem;
+    margin-bottom: 1 rem;}
+    .logotext p{
+        font-size: 0.8rem;
+    }
+    .banerimage{
+        height: 25%;
+        height: 25%;
+    }
+    .logotext button{
+        font-size: 0.8rem;
+        width: 100px;
+        padding: 0.5rem 1rem ;
+        margin-top: 1.5rem;
+    }
+
+  }
+
+  .taste{
+ margin-top: 200px;
+  }
+
+.Slider12{
+    margin-left: 230px;
+   height: 340px;
+ /* display: flex; */
+ z-index: 1000;
+ margin-top: 30px;
+
+   width: 400; 
+   /* background-color: blue; */
+}
+.pic12{
+    width: 400px;
+    height: 300px;
+    padding: 2rem;
+    /* justify-content: center;
+    align-items: center; */
+    /* position:relative; */
+/* margin: 10px 40px; */
+    
+}
+.pic1122{
+    width: 300px;
+    height: 300px;
+    /* margin-right: 10px; */
+}
+
+
+
+
+

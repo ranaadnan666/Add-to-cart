@@ -1,0 +1,28 @@
+.Cartcount1{
+    margin-top: 70px;
+    margin-left: 230px;
+}
+.menu-order{
+    margin-left: -230px;
+}
+.cart-header{
+    padding: 0.5rem;
+}
+.order{
+    margin: 2rem 0 0 0;
+    min-height: calc(100vh - 15rem);
+}
+.order-heading ,
+.total-order{
+    width: 100%;
+    max-width: 500px;
+}
+.order-heading{
+    border-bottom: 2px solid black;
+    margin-bottom: 5.5rem;
+}
+.total-order{
+    border-top: 2px solid black;
+    margin-left: auto;
+    margin-top: 3rem;
+}
